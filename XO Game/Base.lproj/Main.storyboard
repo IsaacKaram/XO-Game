@@ -17,27 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swifty Camp Tic Tac Toe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozu-Tp-Cce">
-                                <rect key="frame" x="83" y="44" width="248.5" height="10"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic Tac Toe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozu-Tp-Cce">
+                                <rect key="frame" x="118" y="59" width="178" height="51"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="37"/>
                                 <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ll-EV-aFG">
-                                <rect key="frame" x="158.5" y="94" width="97.5" height="29.5"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ll-EV-aFG">
+                                <rect key="frame" x="158.5" y="125" width="97.5" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="24"/>
                                 <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgT-H5-C12">
-                                <rect key="frame" x="141.5" y="742" width="131" height="40"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <state key="normal" title="Reset Game">
-                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FvQ-cz-tLg">
-                                <rect key="frame" x="20" y="174" width="374" height="388"/>
+                                <rect key="frame" x="20" y="190" width="374" height="388"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="obc-e4-wre">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="124"/>
@@ -51,6 +44,9 @@
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <state key="normal" title="x">
+                                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsG-xR-fP9">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="124"/>
@@ -66,16 +62,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <state key="normal" title="x">
+                                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYb-rQ-gG6">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <state key="normal" title="o">
+                                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3x-Le-iCN">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <state key="normal" title="o">
+                                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -101,19 +106,26 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgT-H5-C12">
+                                <rect key="frame" x="136" y="820" width="142" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Reset Game">
+                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ozu-Tp-Cce" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="296-zx-MAy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FvQ-cz-tLg" secondAttribute="bottom" constant="300" id="3Xl-v3-4sc"/>
-                            <constraint firstItem="ozu-Tp-Cce" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3x0-qj-Vee"/>
-                            <constraint firstItem="FvQ-cz-tLg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ape-Vh-oLR"/>
-                            <constraint firstItem="8ll-EV-aFG" firstAttribute="top" secondItem="ozu-Tp-Cce" secondAttribute="bottom" constant="40" id="C5e-Ey-z08"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FvQ-cz-tLg" secondAttribute="trailing" constant="20" id="FB1-GL-rMj"/>
-                            <constraint firstItem="FvQ-cz-tLg" firstAttribute="top" secondItem="ozu-Tp-Cce" secondAttribute="bottom" constant="120" id="Fm2-ny-7Br"/>
-                            <constraint firstItem="8ll-EV-aFG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Mfx-vo-qcq"/>
-                            <constraint firstItem="dgT-H5-C12" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zzs-m6-vrS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dgT-H5-C12" secondAttribute="bottom" constant="80" id="lsO-AK-sKo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dgT-H5-C12" secondAttribute="bottom" id="6aZ-LD-vVt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FvQ-cz-tLg" secondAttribute="trailing" constant="20" id="AnB-Wy-pWb"/>
+                            <constraint firstItem="FvQ-cz-tLg" firstAttribute="top" secondItem="8ll-EV-aFG" secondAttribute="bottom" constant="35.5" id="KSk-Jy-P4y"/>
+                            <constraint firstItem="FvQ-cz-tLg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Kmd-9T-ITF"/>
+                            <constraint firstItem="ozu-Tp-Cce" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="MZ5-d2-sCT"/>
+                            <constraint firstItem="dgT-H5-C12" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SEt-kH-38J"/>
+                            <constraint firstItem="ozu-Tp-Cce" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WB2-dc-dwl"/>
+                            <constraint firstItem="8ll-EV-aFG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gz9-xK-6rA"/>
+                            <constraint firstItem="dgT-H5-C12" firstAttribute="top" relation="greaterThanOrEqual" secondItem="FvQ-cz-tLg" secondAttribute="bottom" constant="8" symbolic="YES" id="vhl-4G-Bu1"/>
+                            <constraint firstItem="8ll-EV-aFG" firstAttribute="top" secondItem="ozu-Tp-Cce" secondAttribute="bottom" constant="15" id="xAS-MC-wdL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
