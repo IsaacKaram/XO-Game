@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7847845F6B34800AB247C892 /* Pods_XO_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D73A3A67739EED7EEBB195 /* Pods_XO_Game.framework */; };
 		CE9B31BA240C6D6D006777CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B31B9240C6D6D006777CE /* AppDelegate.swift */; };
 		CE9B31BE240C6D6D006777CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B31BD240C6D6D006777CE /* ViewController.swift */; };
 		CE9B31C1240C6D6D006777CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9B31BF240C6D6D006777CE /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		636ACB3272B0B4A3C5669622 /* Pods-XO Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XO Game.release.xcconfig"; path = "Target Support Files/Pods-XO Game/Pods-XO Game.release.xcconfig"; sourceTree = "<group>"; };
+		BB5F9C6A741CE20D4F6C91E6 /* Pods-XO Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XO Game.debug.xcconfig"; path = "Target Support Files/Pods-XO Game/Pods-XO Game.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D73A3A67739EED7EEBB195 /* Pods_XO_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XO_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9B31B6240C6D6D006777CE /* XO Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XO Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9B31B9240C6D6D006777CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9B31BD240C6D6D006777CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7847845F6B34800AB247C892 /* Pods_XO_Game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AB66F287E791CA7262BDE33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D73A3A67739EED7EEBB195 /* Pods_XO_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE9B31AD240C6D6D006777CE = {
 			isa = PBXGroup;
 			children = (
 				CE9B31B8240C6D6D006777CE /* XO Game */,
 				CE9B31B7240C6D6D006777CE /* Products */,
+				F1274E7A6ED083744118EDA7 /* Pods */,
+				7AB66F287E791CA7262BDE33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,16 @@
 			path = "XO Game";
 			sourceTree = "<group>";
 		};
+		F1274E7A6ED083744118EDA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB5F9C6A741CE20D4F6C91E6 /* Pods-XO Game.debug.xcconfig */,
+				636ACB3272B0B4A3C5669622 /* Pods-XO Game.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9B31CA240C6D6F006777CE /* Build configuration list for PBXNativeTarget "XO Game" */;
 			buildPhases = (
+				34F87F62E44DF314C57A97D7 /* [CP] Check Pods Manifest.lock */,
 				CE9B31B2240C6D6D006777CE /* Sources */,
 				CE9B31B3240C6D6D006777CE /* Frameworks */,
 				CE9B31B4240C6D6D006777CE /* Resources */,
+				CEE693596B3504F86777CC68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34F87F62E44DF314C57A97D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XO Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE693596B3504F86777CC68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XO Game/Pods-XO Game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XO Game/Pods-XO Game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XO Game/Pods-XO Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE9B31B2240C6D6D006777CE /* Sources */ = {
@@ -278,6 +347,7 @@
 		};
 		CE9B31CB240C6D6F006777CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5F9C6A741CE20D4F6C91E6 /* Pods-XO Game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +367,7 @@
 		};
 		CE9B31CC240C6D6F006777CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636ACB3272B0B4A3C5669622 /* Pods-XO Game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

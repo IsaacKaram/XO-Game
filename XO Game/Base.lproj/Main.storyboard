@@ -39,68 +39,83 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uu9-9W-klg"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8I-Pi-dO1">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8I-Pi-dO1">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
-                                                <state key="normal" title="x">
-                                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkV-4G-Eab"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsG-xR-fP9">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsG-xR-fP9">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="scq-Vi-MNP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xev-n2-415">
                                         <rect key="frame" x="0.0" y="132" width="374" height="124"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOG-HM-yXN">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOG-HM-yXN">
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
-                                                <state key="normal" title="x">
-                                                    <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PFI-PA-gNc"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYb-rQ-gG6">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYb-rQ-gG6">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
-                                                <state key="normal" title="o">
-                                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WS8-zD-MSO"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3x-Le-iCN">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3x-Le-iCN">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
-                                                <state key="normal" title="o">
-                                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TVc-4E-mHL"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="RcF-aS-hes">
                                         <rect key="frame" x="0.0" y="264" width="374" height="124"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGQ-Pm-6Sd">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGQ-Pm-6Sd">
                                                 <rect key="frame" x="0.0" y="0.0" width="119.5" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KM5-Da-n2n"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNl-9f-Wun">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNl-9f-Wun">
                                                 <rect key="frame" x="127.5" y="0.0" width="119" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R8I-0P-VEZ"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2D-st-SHU">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2D-st-SHU">
                                                 <rect key="frame" x="254.5" y="0.0" width="119.5" height="124"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="85"/>
+                                                <connections>
+                                                    <action selector="plays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y8l-EE-GC5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -112,6 +127,9 @@
                                 <state key="normal" title="Reset Game">
                                     <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resetButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HyW-0o-SKw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -129,10 +147,21 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outletCollection property="gameBoardButtons" destination="7Q7-Xt-vR1" collectionClass="NSMutableArray" id="B9b-XE-55E"/>
+                        <outletCollection property="gameBoardButtons" destination="m8I-Pi-dO1" collectionClass="NSMutableArray" id="bR5-4O-zh9"/>
+                        <outletCollection property="gameBoardButtons" destination="VsG-xR-fP9" collectionClass="NSMutableArray" id="Sno-aZ-7x9"/>
+                        <outletCollection property="gameBoardButtons" destination="lOG-HM-yXN" collectionClass="NSMutableArray" id="raR-OA-jdm"/>
+                        <outletCollection property="gameBoardButtons" destination="NYb-rQ-gG6" collectionClass="NSMutableArray" id="IeW-22-yEf"/>
+                        <outletCollection property="gameBoardButtons" destination="K3x-Le-iCN" collectionClass="NSMutableArray" id="aTc-jt-BSE"/>
+                        <outletCollection property="gameBoardButtons" destination="xGQ-Pm-6Sd" collectionClass="NSMutableArray" id="g3i-81-jDe"/>
+                        <outletCollection property="gameBoardButtons" destination="jNl-9f-Wun" collectionClass="NSMutableArray" id="TY1-yY-pah"/>
+                        <outletCollection property="gameBoardButtons" destination="Y2D-st-SHU" collectionClass="NSMutableArray" id="reX-Kh-Ed6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+            <point key="canvasLocation" x="-616" y="100"/>
         </scene>
     </scenes>
 </document>
