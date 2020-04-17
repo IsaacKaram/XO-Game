@@ -187,6 +187,7 @@ extension ViewController{
     private func setupPopMessageAttributes() -> EKAttributes{
         var attributes = EKAttributes()
         attributes.position = .center
+        attributes.entryInteraction = .absorbTouches
         attributes.displayDuration = .infinity
         attributes.positionConstraints.size.width = EKAttributes.PositionConstraints.Edge.ratio(value: 0.85)
         attributes.roundCorners = .all(radius: 15)
